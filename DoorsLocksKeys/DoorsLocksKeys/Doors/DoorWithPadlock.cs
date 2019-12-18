@@ -3,11 +3,11 @@ using DoorsLocksKeys.Locks;
 
 namespace DoorsLocksKeys.Doors
 {
-    public class DoorWithPadlock : IDoor
+    public class DoorWithPadLock : IDoor
     {
         private PadLock _padlock;
 
-        public DoorWithPadlock(PadLock padlock)
+        public DoorWithPadLock(PadLock padlock)
         {
             _padlock = padlock;
         }

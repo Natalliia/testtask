@@ -8,7 +8,8 @@ namespace DoorsLocksKeys.Locks
     {
         public void EnterCode()
         {
-
+            Console.WriteLine("Code is entered into the lock");
+            Console.WriteLine("Door is opened");
         }
     }
 }

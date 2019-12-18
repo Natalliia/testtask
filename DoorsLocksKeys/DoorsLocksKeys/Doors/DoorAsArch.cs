@@ -7,7 +7,7 @@ namespace DoorsLocksKeys.Doors
     {
         public void Enter()
         {
-            Console.WriteLine("Entered the arch");
+            Console.WriteLine("No door. Free entry");
         }
     }
 }

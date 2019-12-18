@@ -6,9 +6,15 @@ namespace DoorsLocksKeys.Locks
 {
     public class MortiseLock
     {
-        public void InsertKey() { }
+        public void InsertKey()
+        {
+            Console.WriteLine("Key is inserted into the lock");
+        }
 
-        public void RotateKey() { }
-
+        public void RotateKey()
+        {
+            Console.WriteLine("Key is rotated in the lock");
+            Console.WriteLine("Door is opened");
+        }
     }
 }
