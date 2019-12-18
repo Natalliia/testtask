@@ -2,6 +2,6 @@
 {
     public interface IDoor
     {
-        void Enter();
+       void Enter();
     }
 }
