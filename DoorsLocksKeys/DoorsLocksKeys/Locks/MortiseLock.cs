@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using DoorsLocksKeys.Interfaces;
+using System;
 
 namespace DoorsLocksKeys.Locks
 {
-    public class MortiseLock
+    public class MortiseLock : IMortiseLock
     {
         public void InsertKey()
         {

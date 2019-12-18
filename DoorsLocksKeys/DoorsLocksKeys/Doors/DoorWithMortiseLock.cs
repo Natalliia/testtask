@@ -5,9 +5,9 @@ namespace DoorsLocksKeys.Doors
 {
     public class DoorWithMortiseLock : IDoor
     {
-        private MortiseLock _mortiseLock;
+        private IMortiseLock _mortiseLock;
 
-        public DoorWithMortiseLock(MortiseLock mortiseLock)
+        public DoorWithMortiseLock(IMortiseLock mortiseLock)
         {
             _mortiseLock = mortiseLock;
         }

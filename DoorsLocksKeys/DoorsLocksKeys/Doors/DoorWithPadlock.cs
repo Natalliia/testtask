@@ -1,13 +1,12 @@
 ﻿using DoorsLocksKeys.Interfaces;
-using DoorsLocksKeys.Locks;
 
 namespace DoorsLocksKeys.Doors
 {
     public class DoorWithPadLock : IDoor
     {
-        private PadLock _padlock;
+        private IPadLock _padlock;
 
-        public DoorWithPadLock(PadLock padlock)
+        public DoorWithPadLock(IPadLock padlock)
         {
             _padlock = padlock;
         }

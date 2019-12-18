@@ -1,13 +1,12 @@
 ﻿using DoorsLocksKeys.Interfaces;
-using DoorsLocksKeys.Locks;
 
 namespace DoorsLocksKeys.Doors
 {
     public class DoorWithCodeLock : IDoor
     {
-        private CodeLock _codeLock;
+        private ICodeLock _codeLock;
 
-        public DoorWithCodeLock(CodeLock codeLock)
+        public DoorWithCodeLock(ICodeLock codeLock)
         {
             _codeLock = codeLock;
         }

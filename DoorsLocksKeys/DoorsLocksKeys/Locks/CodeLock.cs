@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using DoorsLocksKeys.Interfaces;
+using System;
 
 namespace DoorsLocksKeys.Locks
 {
-    public class CodeLock
+    public class CodeLock : ICodeLock
     {
         public void EnterCode()
         {

@@ -1,8 +1,9 @@
-﻿using System;
+﻿using DoorsLocksKeys.Interfaces;
+using System;
 
 namespace DoorsLocksKeys.Locks
 {
-    public class PadLock
+    public class PadLock : IPadLock
     {
         public void InsertKey()
         {
